@@ -1,9 +1,14 @@
-
+import Navi from "../navi/Navi";
+import {Container} from "reactstrap";
+import Dashboard from "./Dashboard";
 
 function App() {
   return (
-    <div >
-     <h1>Welcome To React!</h1>
+    <div>
+      <Container>
+        <Navi/>
+        <Dashboard/>
+      </Container>
     </div>
   );
 }
